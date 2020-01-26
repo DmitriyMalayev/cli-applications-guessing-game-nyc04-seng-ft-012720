@@ -1,6 +1,7 @@
 # Code your solution here!
-random_number = rand(6) + 1
+
 def run_guessing_game(random_number)
+  random_number = rand(6) + 1
 puts "Enter guess"
   guess = gets.chomp()
   if guess =! random_number
@@ -10,4 +11,4 @@ puts "Enter guess"
   elsif guess == "exit"
     puts "Goodbye!"
 end
-end 
+end
